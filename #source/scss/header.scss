@@ -7,9 +7,9 @@
 .header-logo {
 }
 .logo {
-  background: url("/img/logo.png");
+  background: url("../img/logo.png");
   @media (min-resolution: 2dppx) {
-    background: url("/img-retina/logo@2x.png");
+    background: url("../img-retina/logo@2x.png");
   }
   width: 92px;
   height: 58px;
@@ -47,11 +47,11 @@
   gap: 5px;
 }
 .pepper-img {
-  background: url("/img/pepper.png");
+  background: url("../img/pepper.png");
   width: 30px;
   height: 30px;
   @media (min-resolution: 2dppx) {
-    background: url("/img-retina/pepper@2x.png");
+    background: url("../img-retina/pepper@2x.png");
   }
 }
 .pepper-digital-box,
@@ -73,29 +73,29 @@
   font-weight: 700;
 }
 .triangle {
-  background: url("/img/triangle-green.png");
+  background: url("../img/triangle-green.png");
   width: 7px;
   height: 5px;
   @media (min-resolution: 2dppx) {
-    background: url("/img-retina/triangle-green@2x.png");
+    background: url("../img-retina/triangle-green@2x.png");
   }
 }
 
 .glasses-img {
-  background: url("/img/glasses.png");
+  background: url("../img/glasses.png");
   width: 30px;
   height: 30px;
   @media (min-resolution: 2dppx) {
-    background: url("/img-retina/glass@2x.png");
+    background: url("../img-retina/glass@2x.png");
   }
 }
 
 .certik-info-box {
-  background: url("/img/certik.png");
+  background: url("../img/certik.png");
   width: 176px;
   height: 58px;
   @media (min-resolution: 2dppx) {
-    background: url("/img-retina/certik@2x.png");
+    background: url("../img-retina/certik@2x.png");
   }
 }
 .lang-info-box {
@@ -111,11 +111,11 @@
   }
 
   .lang-triangle {
-    background: url("/img/triangle-grey.png");
+    background: url("../img/triangle-grey.png");
     width: 10px;
     height: 5px;
     @media (min-resolution: 2dppx) {
-      background: url("/img-retina/triangle-grey@2x.png");
+      background: url("../img-retina/triangle-grey@2x.png");
     }
   }
 }

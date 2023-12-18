@@ -27,11 +27,11 @@
   }
 }
 .pirple-box {
-  background: url("/img/pirple-cub.png");
+  background: url("../img/pirple-cub.png");
   width: 404px;
   height: 306px;
   background-size: cover;
   @media (min-resolution: 2dppx) {
-    background: url("/img-retina/pirple-cub@2x.png");
+    background: url("../img-retina/pirple-cub@2x.png");
   }
 }
