@@ -1,0 +1,37 @@
+.section-four {
+  padding: 100px 0px 0px 0px;
+}
+
+.pirple-flexbox {
+  display: flex;
+  align-items: center;
+  padding: 0px 116px;
+}
+.description-box {
+  width: 740px;
+  h3 {
+    color: #ffffff;
+    font-size: 72px;
+    font-weight: 900;
+    padding: 0px 0px 20px 0px;
+
+    span {
+      color: #01ffc2;
+    }
+  }
+  p {
+    color: #fcfcfd;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+  }
+}
+.pirple-box {
+  background: url("/img/pirple-cub.png");
+  width: 404px;
+  height: 306px;
+  background-size: cover;
+  @media (min-resolution: 2dppx) {
+    background: url("/img-retina/pirple-cub@2x.png");
+  }
+}

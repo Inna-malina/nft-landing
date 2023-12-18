@@ -1,0 +1,37 @@
+.section-six {
+}
+
+.two-screens-box {
+  display: flex;
+  padding: 0px 95px;
+  align-items: center;
+  justify-content: space-between;
+}
+.description {
+  width: 365px;
+
+  h3 {
+    color: #fcfcfd;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+    padding: 0px 0px 20px 0px;
+
+    span {
+      color: #01ffc2;
+    }
+  }
+
+  p {
+    color: #fcfcfd;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+  }
+}
+.two-screen {
+  display: block;
+  width: 879px;
+  height: 784px;
+  object-fit: cover;
+}

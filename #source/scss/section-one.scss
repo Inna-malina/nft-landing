@@ -1,0 +1,93 @@
+.section-one {
+}
+
+.bunner-promo-box {
+  background: url("/img/desktop-bunner.jpg");
+  width: 100%;
+  height: 907px;
+  background-size: cover;
+  @media (min-resolution: 2dppx) {
+    background: url("/img-retina/desktop-bunner@2x.jpg");
+  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bunner-promo-dscription {
+}
+.bunner-title-box {
+  padding: 207px 0px 160px 0px;
+  h1 {
+    width: 347px;
+    font-size: 56px;
+    font-weight: 900;
+    color: #fcfcfd;
+
+    span {
+      color: #01ffc2;
+    }
+  }
+  p {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+    color: #fcfcfd;
+  }
+}
+.play-market-box {
+  img {
+    display: block;
+  }
+  p {
+    color: #fcfcfd;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+}
+.social-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  a {
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+  }
+  a:nth-child(1) {
+    background: url("/img/icons/some.png");
+    @media (min-resolution: 2dppx) {
+      background: url("/img-retina/icon-retina/some@2x.png");
+    }
+  }
+  a:nth-child(2) {
+    background: url("/img/icons/teleg.png");
+    @media (min-resolution: 2dppx) {
+      background: url("/img-retina/icon-retina/teleg@2x.png");
+    }
+  }
+  a:nth-child(3) {
+    background: url("/img/icons/twit.png");
+    @media (min-resolution: 2dppx) {
+      background: url("/img-retina/icon-retina/twit@2x.png");
+    }
+  }
+  a:nth-child(4) {
+    background: url("/img/icons/face.png");
+    @media (min-resolution: 2dppx) {
+      background: url("/img-retina/icon-retina/face@2x.png");
+    }
+  }
+  a:nth-child(5) {
+    background: url("/img/icons/insta.png");
+    @media (min-resolution: 2dppx) {
+      background: url("/img-retina/icon-retina/insta@2x.png");
+    }
+  }
+  a:nth-child(6) {
+    background: url("/img/icons/circle.png");
+    @media (min-resolution: 2dppx) {
+      background: url("/img-retina/icon-retina/circle@2x.png");
+    }
+  }
+}

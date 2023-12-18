@@ -1,0 +1,121 @@
+.header-box {
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+}
+.logo {
+  background: url("/img/logo.png");
+  @media (min-resolution: 2dppx) {
+    background: url("/img-retina/logo@2x.png");
+  }
+  width: 92px;
+  height: 58px;
+}
+.nav-desctop-box {
+  ul {
+    display: flex;
+    list-style-type: none;
+    gap: 36px;
+    li {
+      cursor: pointer;
+      padding: 0px;
+      color: #5e636e;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+
+      &:hover {
+        color: #01ffc2;
+        font-weight: 700;
+      }
+    }
+  }
+}
+.header-info-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.pepper-info-box,
+.glasses-info-box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.pepper-img {
+  background: url("/img/pepper.png");
+  width: 30px;
+  height: 30px;
+  @media (min-resolution: 2dppx) {
+    background: url("/img-retina/pepper@2x.png");
+  }
+}
+.pepper-digital-box,
+.glasses-digital-box {
+}
+.digital-text {
+  color: #e5f7ff;
+  font-size: 8px;
+  font-weight: 400;
+}
+.digital-box {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.digital {
+  color: #fcfcfd;
+  font-size: 16px;
+  font-weight: 700;
+}
+.triangle {
+  background: url("/img/triangle-green.png");
+  width: 7px;
+  height: 5px;
+  @media (min-resolution: 2dppx) {
+    background: url("/img-retina/triangle-green@2x.png");
+  }
+}
+
+.glasses-img {
+  background: url("/img/glasses.png");
+  width: 30px;
+  height: 30px;
+  @media (min-resolution: 2dppx) {
+    background: url("/img-retina/glass@2x.png");
+  }
+}
+
+.certik-info-box {
+  background: url("/img/certik.png");
+  width: 176px;
+  height: 58px;
+  @media (min-resolution: 2dppx) {
+    background: url("/img-retina/certik@2x.png");
+  }
+}
+.lang-info-box {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  .lang-text {
+    color: #5e636e;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .lang-triangle {
+    background: url("/img/triangle-grey.png");
+    width: 10px;
+    height: 5px;
+    @media (min-resolution: 2dppx) {
+      background: url("/img-retina/triangle-grey@2x.png");
+    }
+  }
+}

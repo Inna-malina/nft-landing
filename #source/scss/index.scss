@@ -1,0 +1,24 @@
+@import "./header.scss";
+@import "./section-one.scss";
+@import "./section-two.scss";
+@import "./section-three.scss";
+@import "./section-four.scss";
+@import "./section-five.scss";
+@import "./section-six.scss";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: #140132;
+  font-family: "Montserrat", sans-serif;
+}
+
+.center {
+  max-width: 1350px;
+  margin: 0px auto;
+}

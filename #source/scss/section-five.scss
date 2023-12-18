@@ -1,0 +1,40 @@
+.section-five {
+  padding: 100px 0px 0px 0px;
+}
+
+.pirple-rectangle-box {
+  padding: 0px 116px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: url("/img/rectangle.png");
+  width: 101%;
+  height: 205px;
+  background-size: cover;
+  @media (min-resolution: 2dppx) {
+    background: url("/img-retina/rectangle@2x.png");
+  }
+
+  p {
+    color: #fcfcfd;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+
+    span {
+      color: #01ffc2;
+    }
+  }
+
+  button {
+    width: 250px;
+    height: 80px;
+    color: #fcfcfd;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 40px;
+    background: #7156fb;
+    border: none;
+  }
+}
